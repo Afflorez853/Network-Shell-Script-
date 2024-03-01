@@ -6,10 +6,17 @@
 
 <img src="logo.png" alt="logo" width="140" height="auto" style="border-radius:50%"   />
 <br/>
-<h3><b>NEWTORK SCRIPT PROJECT</b>
+<h3><b>Documentacion GIT📜</b>
 
+
+##
+<li><b>👨🏻‍💻Nombre: </b>Andres Felipe Florez</b>
+<Li><b>🖥️Gestion de redes de datos</b> 🆔(2618040)</b>
+<li><b>💡Automatización de redes</b>
+    
+  ### 
 </div>
-
+ 
 # ✅ TABLE OF CONTENTS
 - [📖 About the Project](#about-project)
   - [⚒️ Build With](#built-with)
@@ -97,7 +104,102 @@ Install This project with:
 ```sh
     ./networkScript.sh
 ```
+### to start, with VC code
 
+    code.
+
+### Then create a shell script
+
+     #!/bin/bash
+
+     #to create folder
+     read -P "script2#" folder_name
+     mkdir "$folder_name"
+
+### To start in the local repository we are going to enter the following command
+    git init 
+
+### Configure the Git terminal, example
+
+    git config --global user.name "your name here"
+    git config --global user.mail "your mail here" 
+
+### We look at the creation of user and email
+    git log
+
+### Display each commit on a single line.
+    git log --oneline
+
+### configuration add script
+    git add "script.sh"
+
+### Show the contents of a file:
+    cat archivo.txt
+
+### Now we are going to add the commit with the following example command
+    git commit -m "Directory"
+
+### information about the branch if there are local changes that have not yet been synced to the remote repository
+    git status
+
+### Generate a new SSH key (if you don't have one)
+    ssh-keygen -t rsa -b 4096 -C "tu_correo_electronico@example.com"
+
+### Add the SSH key to your SSH agent
+    ssh-add ~/.ssh/id_rsa
+
+### Add the SSH key to your GitHub account
+    cat ~/.ssh/id_rsa.pub
+
+### Now a remote Github repository example:
+
+    git remote add origin https://github.com/tu_usuario/tu_repositorio.git
+
+### Upload changes to github in the case of master
+    git push -u origin master
+
+### Create script.sh file
+    touch script.sh
+    echo -e '#!/bin/bash\n\n# This is a comment. You can write your commands here.\necho "Hello, this is an example script."\necho "The current date and time are: $(date)"' > script.sh
+
+### Rollback current branch to previous commit
+    git reset --mixed HEAD~1
+
+### Show a list of files
+
+    git ls-files
+
+### Used to remove changes to a file from the staging area
+    git restore --stage script.sh
+
+### Show which untracked files would be removed from the directory
+    git clean -n
+
+### Irreversibly delete untracked files in Git working directory
+    git clean -f
+
+### Roll back the state of the repository to the immediately previous commit, removing all changes made after that commit.
+    git reset --hard HEAD~1
+
+### Show the differences between the script.sh file that is in the staging area
+    git diff --staged script.sh
+
+### Create a new branch in Git and switch to that new branch at the same time
+    git checkout -b new-branch
+
+### List all branches in a repository and highlight the currently active branch.
+    git branch
+
+### Merge changes from one branch to another, the name of the branch you want to merge into the current branch.
+    git merge feature-branch
+
+### Used to create labels
+    git tag nombre
+    git tag v2.0
+
+### Push all local tags to the remote repository called "origin".
+    git push origin --tags
+  
 ### Usage 
 
 To run the project, execute the following command:
@@ -123,12 +225,11 @@ Deploy using your local enviroment
 
 ## 👥 Authors <a name="authors"></a>
 
-Jeysson Contreras
+Andres Florez
 
 🧑🏻‍💻 **Author 1**
 
- - GitHub: [@alyconr](https://github.com/alyconr)
- - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jeysson-aly-contreras)
+ - GitHub: [@Afflorez853](https://github.com/Afflorez853)
 
 
 ## 🕹️ Future Features <a name="future-features"></a>
